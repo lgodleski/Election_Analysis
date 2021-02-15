@@ -1,21 +1,20 @@
 # Election_Analysis
 
 ## Project Overview
-Performing an election audit of a recent local congressional election for a Colorado Board of Elections employee by completing the following tasks:
-
-1. Calculate total number of votes cast.
-2. Get a complete list of candidates who received votes.
-3. Calculate total number of votes each candidate received.
-4. Calculate percentage of votes each candidate won.
-5. Determine the winner fo the election based on popular vote.
+Performing an election audit of a recent local congressional election for a Colorado Board of Elections employee to determine the winning candidate and the county with the largest number of votes. 
 
 ## Resources
 - Data Source: election_results.csv
 - Software: Python 3.6.1, Visual Studio Code, 1.53.0
 
-## Summary
+## Election-Audit Results
 The analysis of the election show that:
-- There were 369,711 votes case in the election.
+- There were 369,711 votes cast in the election.
+- Votes cast by county:
+      - Jefferson county had 38,855 votes cast which was 10.5% of the total votes.
+      - Denver county had 306,055 votes cast which was 82.8% of the total votes. 
+      - Arapahoe county had 24,801 votes cast which was 6.7% of the total votes.
+- Denver county had the largest number of votes.
 - The candidates were:
     - Charles Casper Stokham
     - Diana DeGette
@@ -27,6 +26,10 @@ The analysis of the election show that:
 - The winner of the election was:
     - Diana DeGette, who received 73.8% of the vote and 272,892 number of votes. 
 
-## Challenge Overview
+## Election-Audit Summary
+To the election commission, this script can be used for any election by making small adjustments to the script. 
+- If you wanted to perform an election audit for a municipal election, you would just need to change the names of the county list and county votes dictionary in the script to "town_list" and "town_votes" instead. You would extract the township data from the csv file in the same way, using town_name = row[1] assuming the township data is indexed at row 1 in the csv file. 
+- 
+
 
 ## Challenge Summary
