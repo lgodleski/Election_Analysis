@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+Python_practice.py
+Python_practice_grade.py
+Python_practice_ifelse.py
+Python_practice_loops.py
